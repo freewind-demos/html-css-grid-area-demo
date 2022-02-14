@@ -3,9 +3,12 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-<form>
-    <div>Username: <input type="text"/></div>
-    <div>Password: <input type="password"/></div>
-</form>
+<div style="border: 1px solid red; padding: 5px; display: grid;
+  height: 100px;
+  grid-template: repeat(4, 1fr) / 50px 100px;">
+    <div style="grid-area: 1/1/1/1; border: 1px solid green">aaa</div>
+    <div style="grid-area: 2/1/2/1; border: 1px solid green">bbb</div>
+    <div style="grid-area: 2/2/4/4; border: 1px solid green">ccc</div>
+</div>
 </body>
 </html>
